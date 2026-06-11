@@ -6,8 +6,6 @@ This repository contains the code and implementation for a garbage classificatio
 
 ## Project Overview
 
-![Screenshot](preview/screenshot.png)
-
 * **Objective:** Automatically classify waste into 6 primary recycling categories: **Cardboard, Glass, Metal, Paper, Plastic, and Trash**.
 * **Model Overhaul:** Replaced the legacy simple 32x32 grayscale CNN with a pre-trained **MobileNetV2** backbone (ImageNet weights) to support full color feature extraction and resolve real-world prediction errors.
 * **Accuracy:** Achieves **83.18% overall accuracy** on a balanced, independent test set containing highly challenging real-world waste items.
